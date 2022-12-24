@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ShareFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/layout_after_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:weightSum="6"
+        android:background="@drawable/naturer_a"
+        android:layout_marginRight="1dp"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonShareTextUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Share Text or URL" />
+
+    <Button
+        android:id="@+id/buttonShareImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonShareTextUrl"
+        android:text="Share Image" />
+    </LinearLayout>
+</FrameLayout>
